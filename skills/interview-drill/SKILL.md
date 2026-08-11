@@ -57,9 +57,15 @@ One question, one **rep**, one verdict, next.
 
 **Draw** without replacement until the pool empties, then reshuffle. This is what makes breadth real — favourites cluster otherwise.
 
-**Each question** carries the link and a scoped sub-problem naming the artifact wanted: a function, a component, a hook, a state block with its callbacks, a type, a test. Size it so the answer is a small code block. The criterion a question targets stays unnamed — naming it gives away the answer, and the interview will not name it either.
+**Spec in hand.** Before drawing, fetch the task and read its requirements. Where the fetch returns a title or a summary rather than the spec — paywalled, JS-rendered, dead link — ask the user to paste the task text, and wait for it.
 
-Request the full task text before asking when its shape decides whether an answer is right.
+_Done when:_ the requirements of the task being drawn from are in context, read rather than assumed.
+
+A rep built from a catalogue blurb invents details the task doesn't have, and the user spends the rep arguing with a fiction instead of writing code.
+
+**One rep, one artifact.** A function, a hook, a type, one state declaration, one callback, one element's JSX, one test. "The state for the checked items" is a rep; "the state and handlers for the component" is three reps wearing one coat, and it lets a wrong answer look reasonable because the scope was never pinned. Where the answer would run past a small code block, narrow it further and draw the rest as separate reps.
+
+Each rep carries the link and names the artifact in a single line. The criterion it targets stays unnamed — naming it gives away the answer, and the interview will not name it either.
 
 **Each rep** is code. A description of code in prose goes back for the code itself; the reflex being built is typing it.
 
